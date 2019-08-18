@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build":"next build"
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,9 +19,11 @@
   "bugs": {
     "url": "https://github.com/nomadGeonilJang/project1-A1/issues"
   },
-  "homepage": "https://github.com/nomadGeonilJang/project1-A1#readme",
+  "homepage": "https://nomadGeonilJang/github.io/project1-A1",
   "dependencies": {
     "antd": "^3.22.0",
+    "build": "^0.1.4",
+    "gh-pages": "^2.1.1",
     "next": "^9.0.3",
     "next-redux-wrapper": "^3.0.0-alpha.3",
     "npm": "^6.10.3",
