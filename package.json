@@ -4,7 +4,8 @@
   "description": "\"# project1-A1\"",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build":"next build"
   },
   "repository": {
     "type": "git",
